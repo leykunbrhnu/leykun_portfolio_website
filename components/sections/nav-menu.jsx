@@ -7,7 +7,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 
 export default function NavMenu() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 py-8">
+    <header className="fixed top-0 left-0 right-0 z-50 py-8 px-3">
       <div className="flex items-center p-4 px-2 justify-between md:px-6 container max-w-screen-xl mx-auto bg-white text-black rounded-full">
         <Link href="/" className="flex items-center space-x-2">
           <span className="text-2xl font-semibold text-black tracking-tighter">Leykun Birhanu</span>

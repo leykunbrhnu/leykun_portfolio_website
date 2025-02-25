@@ -37,7 +37,7 @@ export default function Projects() {
             <p className="text-gray-100 pt-3 pb-12">Here are some of my projects</p>
 
             <div 
-                className="w-full grid grid-cols-1 lg:grid-cols-2 min-h-screen p-4 gap-8"
+                className="w-full grid grid-cols-1 lg:grid-cols-2 min-h-screen p-4 gap-4"
             >   
                 {projects.map(project => (
                     <Link key={project.id} href={project.link}>
