@@ -33,7 +33,7 @@ export default function Projects() {
             id="projects"
             className='flex flex-col items-center justify-center py-[200px]'
         >
-            <h1 className="text-5xl font-bold">Projects</h1>
+            <h1 className="text-5xl">Projects</h1>
             <p className="text-gray-100 pt-3 pb-12">Here are some of my projects</p>
 
             <div 

@@ -7,30 +7,30 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 
 export default function NavMenu() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/25 backdrop-blur supports-[backdrop-filter]:bg-black/60">
-      <div className="flex h-24 items-center justify-between px-4 md:px-6">
+    <header className="fixed top-0 left-0 right-0 z-50 py-8">
+      <div className="flex items-center p-4 px-2 justify-between md:px-6 container max-w-screen-xl mx-auto bg-white text-black rounded-full">
         <Link href="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-semibold text-white">Leykun Birhanu</span>
+          <span className="text-2xl font-semibold text-black tracking-tighter">Leykun Birhanu</span>
         </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <Link href="#projects" className="font-medium text-white/70 transition-colors hover:text-white">
+          <Link href="#projects" className="font-medium text-black/70 transition-colors hover:text-black">
             Projects
           </Link>
-          <Link href="#internship" className="font-medium text-white/70 transition-colors hover:text-white">
+          <Link href="#internship" className="font-medium text-black/70 transition-colors hover:text-black">
             Internship
           </Link>
-          <Link href="#work" className="font-medium text-white/70 transition-colors hover:text-white">
+          <Link href="#work" className="font-medium text-black/70 transition-colors hover:text-black">
             Work
           </Link>
-          <Link href="#about" className="font-medium text-white/70 transition-colors hover:text-white">
+          <Link href="#about" className="font-medium text-black/70 transition-colors hover:text-black">
             About Me
           </Link>
           
           <Link href={'mailto:Leykunb368@gmail.com'}>
-            <Button variant="secondary" size='sm' className="rounded-full px-6 bg-white text-black hover:bg-white/90">
-              Contact Me
+            <Button variant="secondary" size='sm' className="rounded-full px-6 bg-[#ffc914] text-black hover:bg-white/90">
+              Contact me
             </Button>
           </Link>
         </nav>
