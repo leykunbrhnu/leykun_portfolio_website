@@ -8,7 +8,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 export default function NavMenu() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/25 backdrop-blur supports-[backdrop-filter]:bg-black/60">
-      <div className="container max-w-screen-lg mx-auto flex h-24 items-center justify-between px-4 md:px-6">
+      <div className="flex h-24 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center space-x-2">
           <span className="text-2xl font-semibold text-white">Leykun Birhanu</span>
         </Link>
@@ -27,9 +27,12 @@ export default function NavMenu() {
           <Link href="#about" className="font-medium text-white/70 transition-colors hover:text-white">
             About Me
           </Link>
-          <Button variant="secondary" size='sm' className="rounded-full px-6 bg-white text-black hover:bg-white/90">
-            Contact Me
-          </Button>
+          
+          <Link href={'mailto:Leykunb368@gmail.com'}>
+            <Button variant="secondary" size='sm' className="rounded-full px-6 bg-white text-black hover:bg-white/90">
+              Contact Me
+            </Button>
+          </Link>
         </nav>
 
         {/* Mobile Navigation */}
@@ -42,25 +45,30 @@ export default function NavMenu() {
           </SheetTrigger>
           <SheetContent
             side="right"
-            className="w-[300px] bg-black/95 backdrop-blur supports-[backdrop-filter]:bg-black/60"
+            className="w-[300px] bg-white/35 backdrop-blur supports-[backdrop-filter]:bg-black/60"
           >
             <nav className="flex flex-col space-y-6 mt-10">
-              <Link href="/work" className="text-lg font-medium text-white/70 transition-colors hover:text-white">
+              <Link href="#work" className="text-lg font-medium text-white/70 transition-colors hover:text-white">
                 Work
               </Link>
-              <Link href="/studio" className="text-lg font-medium text-white/70 transition-colors hover:text-white">
-                Studio
+              <Link href="#projects" className="text-lg font-medium text-white/70 transition-colors hover:text-white">
+                Projects
               </Link>
-              <Link href="/contact" className="text-lg font-medium text-white/70 transition-colors hover:text-white">
-                Contact
+              <Link href="#internship" className="text-lg font-medium text-white/70 transition-colors hover:text-white">
+                Internship
               </Link>
-              <Button
-                variant="secondary"
-                size="default"
-                className="rounded-full px-6 bg-white text-black hover:bg-white/90 w-fit"
-              >
-                Remix
-              </Button>
+              <Link href="#about_me" className="text-lg font-medium text-white/70 transition-colors hover:text-white">
+                About me
+              </Link>
+              <Link href={'mailto:Leykunb368@gmail.com'}>
+                <Button
+                  variant="secondary"
+                  size="sm"
+                  className="rounded-full px-6 bg-white text-black hover:bg-white/90 w-fit"
+                >
+                  Contact me
+                </Button>
+              </Link>
             </nav>
           </SheetContent>
         </Sheet>
