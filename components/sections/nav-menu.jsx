@@ -15,14 +15,14 @@ export default function NavMenu() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <Link href="#work" className="font-medium text-white/70 transition-colors hover:text-white">
-            Work
-          </Link>
           <Link href="#projects" className="font-medium text-white/70 transition-colors hover:text-white">
             Projects
           </Link>
           <Link href="#internship" className="font-medium text-white/70 transition-colors hover:text-white">
             Internship
+          </Link>
+          <Link href="#work" className="font-medium text-white/70 transition-colors hover:text-white">
+            Work
           </Link>
           <Link href="#about" className="font-medium text-white/70 transition-colors hover:text-white">
             About Me
@@ -36,7 +36,7 @@ export default function NavMenu() {
         </nav>
 
         {/* Mobile Navigation */}
-        <Sheet>
+        {/* <Sheet>
           <SheetTrigger asChild className="md:hidden">
             <Button variant="ghost" size="icon" className="text-white">
               <Menu className="h-6 w-6" />
@@ -71,7 +71,7 @@ export default function NavMenu() {
               </Link>
             </nav>
           </SheetContent>
-        </Sheet>
+        </Sheet> */}
       </div>
     </header>
   )
