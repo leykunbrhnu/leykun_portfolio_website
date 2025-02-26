@@ -9,8 +9,8 @@ export default function NavMenu() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 py-8 px-3">
       <div className="flex items-center p-4 px-2 justify-between md:px-6 container max-w-screen-xl mx-auto bg-white text-black rounded-full">
-        <Link href="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-semibold text-black tracking-tighter">Leykun Birhanu</span>
+        <Link href="/" className="flex items-center justify-center space-x-2 flex-1">
+          <span className="text-2xl font-semibold text-black tracking-[-2px]">Leykun Birhanu</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -18,11 +18,11 @@ export default function NavMenu() {
           <Link href="#projects" className="font-medium text-black/70 transition-colors hover:text-black">
             Projects
           </Link>
-          <Link href="#internship" className="font-medium text-black/70 transition-colors hover:text-black">
-            Internship
+          <Link href="#skills" className="font-medium text-black/70 transition-colors hover:text-black">
+            Skills
           </Link>
-          <Link href="#work" className="font-medium text-black/70 transition-colors hover:text-black">
-            Work
+          <Link href="#experiences" className="font-medium text-black/70 transition-colors hover:text-black">
+            experiences
           </Link>
           <Link href="#about" className="font-medium text-black/70 transition-colors hover:text-black">
             About Me
