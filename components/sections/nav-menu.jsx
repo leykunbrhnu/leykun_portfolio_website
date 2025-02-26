@@ -25,7 +25,7 @@ export default function NavMenu() {
           }
           
           <Link href={'mailto:Leykunb368@gmail.com'}>
-            <Button variant="secondary" size='sm' className="rounded-full px-6 bg-[#ffc914] text-black hover:bg-white/90">
+            <Button variant="secondary" size='sm' className="rounded-full px-6 bg-[#ffc914] text-black hover:bg-black/90 hover:text-white">
               Contact me
             </Button>
           </Link>
