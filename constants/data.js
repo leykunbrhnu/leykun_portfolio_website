@@ -1,5 +1,4 @@
 // projects, skills, experiences, about
-
 export const NAV_LINKS = [
     {
         id: 0,
@@ -30,13 +29,30 @@ export const NAV_LINKS = [
 
 export const PROJECTS = [
     {
-        id: "",
-        name: "",
-        description: "", 
-        tags: "",
-        img: ""
+        id: 1,
+        title: 'Project One',
+        description: 'Description for project one',
+        link: '/projects/1'
+    },
+    {
+        id: 2,
+        title: 'Project Two',
+        description: 'Description for project two',
+        link: '/projects/2'
+    },
+    {
+        id: 3,
+        title: 'Project Three',
+        description: 'Description for project three',
+        link: '/projects/3'
+    },
+    {
+        id: 4,
+        title: 'Project Four',
+        description: 'Description for project four',
+        link: '/projects/4'
     }
-]
+];
 
 export const SKILLS = [
     'Photoshop',
