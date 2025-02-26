@@ -1,3 +1,33 @@
+// projects, skills, experiences, about
+
+export const NAV_LINKS = [
+    {
+        id: 0,
+        name: "Home",
+        href: "#hero"
+    }, 
+    {
+        id: 1,
+        name: "Projects",
+        href: "#projects"
+    }, 
+    {
+        id: 2,
+        name: "Skills",
+        href: "#skills"
+    }, 
+    {
+        id: 3,
+        name: "Experiences",
+        href: "#experiences"
+    }, 
+    {
+        id: 4,
+        name: "About",
+        href: "#about"
+    }
+]
+
 export const PROJECTS = [
     {
         id: "",

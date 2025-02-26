@@ -4,6 +4,7 @@ import { Menu } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { NAV_LINKS } from "@/constants/data"
 
 export default function NavMenu() {
   return (
@@ -15,18 +16,13 @@ export default function NavMenu() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <Link href="#projects" className="font-medium text-black/70 transition-colors hover:text-black">
-            Projects
-          </Link>
-          <Link href="#skills" className="font-medium text-black/70 transition-colors hover:text-black">
-            Skills
-          </Link>
-          <Link href="#experiences" className="font-medium text-black/70 transition-colors hover:text-black">
-            experiences
-          </Link>
-          <Link href="#about" className="font-medium text-black/70 transition-colors hover:text-black">
-            About Me
-          </Link>
+          {
+            NAV_LINKS.map((link, index) => (
+              <Link href={link.href} key={index} className="text-lg font-medium text-black/70 transition-colors hover:text-black">
+                {link.name}
+              </Link>
+            ))
+          }
           
           <Link href={'mailto:Leykunb368@gmail.com'}>
             <Button variant="secondary" size='sm' className="rounded-full px-6 bg-[#ffc914] text-black hover:bg-white/90">
