@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Hero = () => {
   return (
     <div 
@@ -11,7 +13,9 @@ const Hero = () => {
         </h1>
       </div>
       <div className="text-xl space-y-3 flex flex-col flex-[1]">
-        <p className="underline text-[#ffc914]">Leykunb368@gmail.com</p>
+        <Link href={'mailto:leykunb368@gmail.com'}>
+          <p className="underline text-[#ffc914]">leykunb368@gmail.com</p>
+        </Link>
         <p className="opacity-75">Scroll to learn more</p>
       </div>
     </div>
