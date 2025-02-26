@@ -16,7 +16,7 @@ export default function AboutMe() {
             </div>
 
             <div>
-                Hey there! I'm a driven and competitive individual, I remain open and eager to explore new experiences. I am resilient, consistently striving to overcome difficulties and challenges with a positive outlook.
+                Hey there! I'm a driven, artistic and competitive individual, I remain open and eager to explore new experiences. I am resilient, consistently striving to overcome difficulties and challenges with a positive outlook.
             </div>
         </div>
     )
