@@ -30,27 +30,27 @@ export const NAV_LINKS = [
 export const PROJECTS = [
     {
         id: 1,
-        title: 'Project One',
-        description: 'Description for project one',
-        link: '/projects/1'
+        title: 'AutoCAD',
+        description: 'Floor plan of a modern meeting hall with ground and first floor, The site is in Akaki Sub-City of Addis Ababa.',
+        image: '/images/projects/autoCAD.png',
     },
     {
         id: 2,
-        title: 'Project Two',
-        description: 'Description for project two',
-        link: '/projects/2'
+        title: 'Model Making',
+        description: 'One of the 3 Model that I made ',
+        image: '/images/projects/model_making.jpg',
     },
     {
         id: 3,
-        title: 'Project Three',
-        description: 'Description for project three',
-        link: '/projects/3'
+        title: 'Sketches',
+        description: 'Drawings that I made inspired by my best favourite movies.',
+        image: '/images/projects/sketches.png',
     },
     {
         id: 4,
-        title: 'Project Four',
-        description: 'Description for project four',
-        link: '/projects/4'
+        title: 'Mixed-Use Apartment',
+        description: 'Floor plan of a modern meeting hall with ground and first floor, The site is in Akaki Sub-City of Addis Ababa.',
+        image: '/images/projects/mixed_use_apartment.png',
     }
 ];
 
@@ -82,7 +82,7 @@ export const EXPERIENCES = [
     {
         id: 'YeBen Endowment Fund - Head Content, Content Editor and Graphics Designing', 
         role: "Head Content, Content Editor and Graphics Designing",
-        period: "Jan 2024 - Current",
+        period: "June 2024 - Current",
         duration: '9 months',
         location: "Addis Ababa, Ethiopia",
         description: "9 months work experience, by which I have done variety of works. I started as a volunteer and then worked as an intern until I finally got accepted to be an employee and a member of the PR team"
@@ -90,9 +90,9 @@ export const EXPERIENCES = [
     {
         id: "Voluntary Activities - In a Rotaract club, University and YeBen",
         role: "Volunteer",
-        period: "March 2023 - Current",
-        duration: "1yr 9 months",
+        period: "",
+        duration: "-",
         location: "Addis Ababa, Ethiopia",
-        description: "I have been an active person since high school, participating in numerous clubs and activities to develop my skills and to contribute my share to the community"
+        description: "I have been an active person since high school, participating in numerous clubs and activities such as Rotaract to develop my skills and to contribute my share to the community"
     }
 ]
