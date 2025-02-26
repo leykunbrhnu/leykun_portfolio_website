@@ -9,9 +9,12 @@ export default function Footer() {
                 {/* left side */}
                 <div className="flex-[3] flex flex-col justify-start items-start space-y-12 pr-24">
                     <p className="text-xl lg:text-2xl text-white/65">A driven and competitive individual, I remain open and eager to explore new experiences. I am resilient, consistently striving to overcome difficulties and challenges with a positive outlook.</p>
-                    <Button variant="secondary" size='sm' className="rounded-full px-6 bg-white text-black hover:bg-white/90">
-                        Contact Me
-                    </Button>
+                    
+                    <Link href={'mailto:leykunb368@gmail.com'}>
+                        <Button variant="secondary" size='sm' className="rounded-full px-6 bg-white text-black hover:bg-white/90">
+                            Contact Me
+                        </Button>
+                    </Link>
                 </div>
 
 
