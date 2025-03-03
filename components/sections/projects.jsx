@@ -37,6 +37,7 @@ export default function Projects() {
 
 
             <Link
+                target='_blank'
                 href={'https://drive.google.com/file/d/1IU4T--aTUnfaiVww629Rne8Ys6rXOY0B/view?usp=sharing'}
             >
                 <Button variant="secondary" size='sm' className="rounded-full px-6 bg-[#ffc914] text-black hover:bg-black/90 hover:text-white">
